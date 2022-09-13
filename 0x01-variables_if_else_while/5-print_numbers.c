@@ -8,15 +8,11 @@
  */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
+int i;
+for (i = 0; i < 10; i++)
 {
-	putchar(ch);
+	printf("%i", i);
 }
-for (ch = 'A' ; ch <= 'Z' ; ch++)
-{
-	putchar(ch);
-}
-putchar('\n');
+printf("\n");
 return (0);
 }
