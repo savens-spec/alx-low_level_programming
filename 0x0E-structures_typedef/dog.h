@@ -1,7 +1,7 @@
 #ifndef Dog_H
 #define DOG_H
 
-/*
+/**
  * struct dog @ - struct dog
  * @name name
  * @age age
@@ -22,4 +22,4 @@ void print_dog(struct dog*d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
-#endif/*DOG_H*/
+#endif /*DOG_H*/
