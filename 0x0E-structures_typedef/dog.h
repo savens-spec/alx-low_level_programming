@@ -6,7 +6,7 @@
  * @name name
  * @age age
  * @owner owner
- * description this struct if for dog
+ * description: this struct if for dog
  */
 
 struct dog
