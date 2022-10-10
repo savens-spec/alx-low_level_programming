@@ -8,7 +8,6 @@
  * @owner owner
  * description: this struct if for dog
  */
-
 struct dog
 {
 	char *name;
