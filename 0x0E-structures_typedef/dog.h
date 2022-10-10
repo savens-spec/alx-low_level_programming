@@ -1,5 +1,5 @@
-#ifndef STRTYP
-#define STRTYP
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog @ - struct dog
