@@ -1,21 +1,21 @@
 #include <stdlib.h>
 #include "dog.h"
-  /**
-  *int_dog - initalize a variable of type struct dog
-  *@d: array
-  *@name: age 
-  *@owner: owner
-  *description: this struct is for dog
-  */
+ 
+/**
+ * init_dog - initializes a structure of type dog
+ * @d: pointer to structure
+ * @name: pointer to the name of the dog
+ * @age: age of dog
+ * @owner: pointer to owner of dog
+ *
+ * Return: void
+ */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog dog_t;
-	
-	dog_t.name = poppy;
-	dog_t.age = 2;
-	dog_t.owner = victor's;
-
-	printf("this is %C %c and he is %.1f year old\n", dog_t.owner, dog_t.name, dog_t.age)
-
-	return 0;	
+	if (d)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
