@@ -9,11 +9,13 @@
   */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == 0)
-		return;
+	struct dog dog_t;
 	
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
-	
+	dog_t.name = poppy;
+	dog_t.age = 2;
+	dog_t.owner = victor's;
+
+	printf("this is %C %c and he is %.1f year old\n", dog_t.owner, dog_t.name, dog_t.age)
+
+	return 0;	
 }
